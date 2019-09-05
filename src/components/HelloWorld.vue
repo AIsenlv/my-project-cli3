@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-        55225
+        55225  
   </div>
 </template>
 
