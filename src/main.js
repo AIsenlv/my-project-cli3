@@ -2,9 +2,11 @@ import Vue from 'vue'
 import App from './App.vue'
 import router  from './router/router.js'
 import  store from './store/store.js'
+import model from '@/components/home/module/model.vue'
 
 Vue.config.productionTip = false
 Vue.prototype.$store=store
+Vue.component('model',model);
 
 //监控路由跳转 
 router.beforeEach((to, from, next) => {
